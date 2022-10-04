@@ -4,7 +4,7 @@
     "height": 400,
     "width": "container",
     "data": {
-      "url": "https://raw.githubusercontent.com/kaihonglo/W9-HW/main/data/CO2_emission.csv"
+      "url": "https://raw.githubusercontent.com/kaihonglo/A2/main/data/CO2_emission.csv"
     },
     "params": [
       {
