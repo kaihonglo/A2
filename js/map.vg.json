@@ -35,7 +35,10 @@
             0,
             0
           ],
-          [50, 20]
+          [
+            50,
+            20
+          ]
         ],
         "labels": [
           "World",
@@ -121,7 +124,31 @@
           }
         ]
       }
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/kaihonglo/A2/main/js/ne_110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "oceans"
+        }
+      },
+      "mark":{"type":"geoshape", "fill": "#a7cdf2"}
+    },
+    {
+      "data": {
+        "url": "https://raw.githubusercontent.com/kaihonglo/A2/main/js/ne_110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_110m_graticules_30"
+        }
+      },
+      "mark":{"type":"geoshape", "fill": null, "stroke":"grey"}
     }
   ],
-  "config": {"view": {"stroke": null}}
+  "config": {
+    "view": {
+      "stroke": null
+    }
+  }
 }
